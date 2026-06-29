@@ -1,0 +1,17 @@
+
+# Env
+guild/
+
+#HTML/CSS
+
+# Python cache
+__pycache__/
+*.pyc
+
+# SQL
+
+# Misc
+tree.txt
+
+
+backend/.env

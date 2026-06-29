@@ -1,0 +1,1 @@
+To start the database just run "docker compose up -d" from the project root and you're good to go.
