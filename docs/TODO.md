@@ -1,11 +1,11 @@
 # WoW Guild Site — Project Checklist
 
 ## Phase 1 — Project setup
-- [ ] Create GitHub repo and clone locally
-- [ ] Set up folder structure (backend/, frontend/, db/)
-- [ ] Create venv and install packages
+- [X] Create GitHub repo and clone locally
+- [X] Set up folder structure (backend/, frontend/, db/)
+- [X] Create venv and install packages
   - `python -m venv guild` → activate → `pip install fastapi uvicorn sqlalchemy psycopg2-binary`
-- [ ] pip freeze into requirements.txt
+- [X] pip freeze into requirements.txt
 - [ ] Set up docker-compose.yml for Postgres
 - [ ] Create backend/.env with DATABASE_URL
 - [ ] Verify .gitignore covers guild/, .env, __pycache__
