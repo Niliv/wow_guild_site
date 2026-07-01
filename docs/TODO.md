@@ -6,17 +6,17 @@
 - [X] Create venv and install packages
   - `python -m venv guild` → activate → `pip install fastapi uvicorn sqlalchemy psycopg2-binary`
 - [X] pip freeze into requirements.txt
-- [ ] Set up docker-compose.yml for Postgres
-- [ ] Create backend/.env with DATABASE_URL
-- [ ] Verify .gitignore covers guild/, .env, __pycache__
-- [ ] Push initial structure to GitHub
+- [X] Set up docker-compose.yml for Postgres
+- [X] Create backend/.env with DATABASE_URL
+- [X] Verify .gitignore covers guild/, .env, __pycache__
+- [X] Push initial structure to GitHub
 
 ## Phase 2 — FastAPI basics
-- [ ] Create main.py with a hello world endpoint
+- [X] Create main.py with a hello world endpoint
   - `GET /` → `{"hello": "world"}` — confirm uvicorn runs
-- [ ] Connect FastAPI to Postgres via SQLAlchemy
+- [X] Connect FastAPI to Postgres via SQLAlchemy
   - Create database.py with engine and session
-- [ ] Create first database model — GuildMember
+- [X] Create first database model — GuildMember
   - Fields: id, name, character_name, realm, class, role
 - [ ] Run first migration — create the table in Postgres
 - [ ] Write GET /members endpoint returning all members
