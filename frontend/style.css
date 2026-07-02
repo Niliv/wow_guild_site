@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box; /* padding/border counted inside width, not added on top */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(images/teldrassil_burning.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 550%;
+    color: rgb(139, 0, 0);
+}
+
+nav {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  flex-direction: row;
+  white-space: initial;
+}
+
+a {
+  color: white;
+}
+
+header {
+  display: flex; 
+  align-items: center; 
+  flex-direction: column;          
+  padding: 1rem 2rem;
+}
+
+member-cards {
+  
+}

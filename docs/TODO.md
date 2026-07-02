@@ -18,16 +18,16 @@
   - Create database.py with engine and session
 - [X] Create first database model — GuildMember
   - Fields: id, name, character_name, realm, class, role
-- [ ] Run first migration — create the table in Postgres
-- [ ] Write GET /members endpoint returning all members
-- [ ] Write POST /members endpoint to add a member
-- [ ] Test both endpoints in FastAPI /docs (Swagger UI)
-- [ ] Seed a few test members into the database
+- [X] Run first migration — create the table in Postgres
+- [X] Write GET /members endpoint returning all members
+- [X] Write POST /members endpoint to add a member
+- [X] Test both endpoints in FastAPI /docs (Swagger UI)
+- [X] Seed a few test members into the database
 
 ## Phase 3 — Frontend basics
-- [ ] Create index.html with basic guild page layout
+- [X] Create index.html with basic guild page layout
   - Header, guild name, member list area
-- [ ] Add style.css — basic styling, fonts, layout
+- [X] Add style.css — basic styling, fonts, layout
 - [ ] Write JS fetch() call to GET /members
   - Learn about async/await and the fetch API
 - [ ] Render member list dynamically from API response
