@@ -10,12 +10,6 @@ models.Base.metadata.create_all(bind=db.engine)
 
 ID = 0
 
-@app.get("/")
-def root():
-    return {"message":"Server is running"}
-
-
-
 # ---------------- Members ---------------
 @app.post("/members")
 def add_member(name: str, session = Depends(db.get_db)):
@@ -45,3 +39,7 @@ def add_character(name, realm, owner, session = Depends(db.get_db)):
 @app.get("/characters")
 def get_characters(session: Session = Depends(db.get_db)):
     return session.query(Character).all()
+
+
+
+app.frontend("/", directory="../frontend")
